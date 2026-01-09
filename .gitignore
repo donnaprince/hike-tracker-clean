@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.env
+
+# OS
+.DS_Store
+
+# Large data files (do NOT commit raw GIS data)
+backend/data/*.shp
+backend/data/*.dbf
+backend/data/*.shx
+backend/data/*.prj
+
+# Optional: logs
+*.log

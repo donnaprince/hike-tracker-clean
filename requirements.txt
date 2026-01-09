@@ -1,0 +1,16 @@
+pydantic
+pymongo
+bson
+requests
+pymongo[srv]
+python-dotenv
+uvicorn[standard]
+fastapi
+geopandas
+geopy
+shapely
+streamlit
+streamlit-folium
+folium
+pydeck
+pandas
