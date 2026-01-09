@@ -5,7 +5,7 @@ from collections import defaultdict
 import re
 import math
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://hike-tracker-clean.onrender.com"
 
 st.set_page_config(page_title="Trails Explorer", layout="wide")
 
