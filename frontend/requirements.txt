@@ -1,9 +1,0 @@
-streamlit
-streamlit-folium
-folium
-pydeck
-pandas
-requests
-geopandas
-geopy
-shapely
