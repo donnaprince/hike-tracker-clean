@@ -1,6 +1,6 @@
 from fastapi import APIRouter
 from datetime import datetime
-from backend.db import get_db
+from db import get_db
 from bson import ObjectId
 
 router = APIRouter(prefix="/api/my-hikes", tags=["my-hikes"])

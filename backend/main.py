@@ -1,7 +1,8 @@
 from fastapi import FastAPI
-from backend.routes.my_hikes import router as my_hikes_router
-from backend.routes.trails import router as trails_router
-from backend.routes.parks import router as parks_router
+
+from routes.my_hikes import router as my_hikes_router
+from routes.trails import router as trails_router
+from routes.parks import router as parks_router
 
 app = FastAPI(title="Hike Tracker API")
 

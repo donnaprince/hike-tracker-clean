@@ -1,5 +1,7 @@
 from fastapi import APIRouter
-from backend.db import get_db
+from typing import Optional
+
+from db import get_db
 
 router = APIRouter()
 db = get_db()
@@ -9,7 +11,7 @@ db = get_db()
 # Used for sidebar, dropdowns, search
 # --------------------------------------------------
 @router.get("/trails")
-def list_trails(region: str | None = None):
+def list_trails(region: Optional[str] = None):
     query = {}
     if region:
         query["region"] = region
