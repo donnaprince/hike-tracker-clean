@@ -4,7 +4,7 @@ import pandas as pd
 import plotly.express as px
 import time
 
-API_BASE = "http://localhost:8000"
+API_BASE = "https://hike-tracker-clean.onrender.com"
 
 st.set_page_config(page_title="My Hikes", layout="wide")
 
